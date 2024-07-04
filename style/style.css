@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.695), rgba(0,0,0,0.365)), url(../assets/azad.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    color: #ffffffce;
+    text-align: center;
+    width: 70%;
+}
+
+.content h2{
+font-size: 45px;
+color: #db714e;
+text-transform: uppercase;
+
+}
+
+.content p{
+    font-size: 23px;
+    margin: 15px 0;
+    
+}
